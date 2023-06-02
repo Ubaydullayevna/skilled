@@ -1,0 +1,48 @@
+.header{
+    padding: 2.4rem;
+    background-image: url('../images/svg/hero-bg.png') ; 
+    background-repeat: no-repeat ;
+    background-position-x: 800px;
+    background-position-y: -150px;
+}
+@media (max-width:500px) {
+    .header{
+        background:url(" ")
+    }    
+ }
+.header__container{ 
+ 
+}
+.header-button {
+    background-color: $primary-black;
+    color: $secondary-white;
+    &:active{
+        background-color:#666CA3;
+    }
+}
+.hero {
+    padding-top: 14.8rem;
+    padding-bottom: 10.2rem;
+}
+.hero__info{
+    max-width: 457px;
+}
+.hero__title{
+    font-weight: 800;
+    font-size: 5.6rem;
+    font-family:$main-font-family;
+    margin-bottom: 2.8rem;
+}
+.hero__des {
+    width: 445px;
+    padding-bottom: 40px;
+    text-align: left;
+}
+.hero__button{
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    color: $secondary-white;
+    padding:19px 31px 16px;
+    &:active{
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    }
+}

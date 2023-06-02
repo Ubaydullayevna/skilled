@@ -1,0 +1,21 @@
+@mixin mainTextFont ($fs, $fw, $color, $lh, $m) {
+    font-size: $fs;
+    font-weight: $fw;
+    color: $color;
+    line-height: $lh;
+    margin: $m;
+}
+@mixin reset {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin large-text {
+    font: {
+        family: Roboto;
+        size: 30px;
+        weight: bold;
+    }
+    color: #ffff;
+}

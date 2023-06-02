@@ -1,0 +1,23 @@
+.footer {
+    padding: 2.4rem;
+    background-color:$primary-black;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+.footer-container {
+  
+}
+.navigation-wrapper {
+}
+.site-logo {
+}
+.footer-button {
+    color:$secondary-white;
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    border-radius: 28px;
+    padding: 24px;
+    &:active{
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    }
+}

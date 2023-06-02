@@ -1,0 +1,20 @@
+html {
+     font-size: 62.5%;
+}
+
+body {
+     font-family: $main-font-family;
+     @include mainTextFont ($main-font-size, 400, $text-color, 1.5, 0);
+}
+
+h1 {
+     @include mainTextFont(60.55px, 700, $text-color, 130%, 0);
+}
+
+h2 {
+     @include mainTextFont(49px, 700, $text-color, 130%, 0);
+}
+
+h3 {
+     @include mainTextFont(25px, 500, $primary-blue, 29.3px, 0);
+}
