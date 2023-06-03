@@ -7,7 +7,7 @@
 }
 @media (max-width:500px) {
     .header{
-        background:url(" ")
+        background:url(" ");
     }    
  }
 .header__container{ 
@@ -27,6 +27,11 @@
 .hero__info{
     max-width: 457px;
 }
+@media (max-width:500px){
+    .hero__info{
+        text-align: center;
+    }
+}
 .hero__title{
     font-weight: 800;
     font-size: 5.6rem;
@@ -37,6 +42,13 @@
     width: 445px;
     padding-bottom: 40px;
     text-align: left;
+}
+@media (max-width:500px){
+    .hero__des{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 .hero__button{
     background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);

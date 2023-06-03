@@ -4,3 +4,9 @@
     border-radius: 28px;
     font-family: $main-font-family;
 }
+@media (max-width: 500px){
+    .button{
+        padding: 1.5rem;
+    }
+}
+
